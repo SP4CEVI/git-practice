@@ -18,3 +18,8 @@ def divide(a, b):
         raise ValueError("Деление на ноль")
     return a / b
 # rebase-demo 1
+
+
+def power(a, b):
+    """Возведение в степень"""
+    return a * b
