@@ -11,3 +11,8 @@ def is_number(text):
 
 def is_operation(text):
     return text in ("+", "-", "*", "/")
+
+
+def is_positive(value):
+    """Проверяет, что число положительное"""
+    return value > 0
