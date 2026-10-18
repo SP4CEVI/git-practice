@@ -1,1 +1,1 @@
-# git-practice
+# git-practiceКалькулятор поддерживает + - * / и **.
