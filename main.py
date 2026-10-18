@@ -5,6 +5,7 @@ OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide}
 
 
 def main():
+    """Точка входа: консольный калькулятор"""
     print(f"{APP_NAME} v{VERSION}")
     a = float(input("Первое число: "))
     op = input("Операция (+-*/): ")
