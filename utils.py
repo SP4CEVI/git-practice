@@ -6,3 +6,5 @@ def format_result(value):
     return int(value) if float(value).is_integer() else value
 # merge-demo 1
 # merge-demo 2
+# squash-demo 1
+# squash-demo 2
