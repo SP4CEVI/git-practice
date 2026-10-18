@@ -1,7 +1,7 @@
 from config import APP_NAME, VERSION
-from operations import add, subtract, multiply, divide
+from operations import add, subtract, multiply, divide, power
 
-OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide}
+OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "**": power}
 
 
 def main():
