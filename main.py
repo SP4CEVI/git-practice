@@ -9,7 +9,7 @@ def main():
     a = float(input("Первое число: "))
     op = input("Операция (+-*/): ")
     b = float(input("Второе число: "))
-    print("Результат: ", OPERATIONS[op](a, b))
+    print("Результат:", round(OPERATIONS[op](a, b), 4))
 
 
 if __name__ == "__main__":
