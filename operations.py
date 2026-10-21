@@ -23,3 +23,8 @@ def divide(a, b):
 def power(a, b):
     """Возведение в степень"""
     return a ** b
+
+
+def percent(value, pct):
+    """Процент от числа"""
+    return value * pct / 100
