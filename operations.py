@@ -26,5 +26,5 @@ def power(a, b):
 
 
 def percent(value, pct):
-    """Процент от числа"""
+    """Возвращает pct процентов от value"""
     return value * pct / 100
